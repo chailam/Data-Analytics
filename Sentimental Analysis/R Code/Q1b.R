@@ -4,7 +4,7 @@ library(ggplot2)
 library(reshape2)
 
 # Read the data into R
-data <- read.csv("~/Semester 1/FIT3152/Tugas/Tugas 1/webforum.csv")
+data <- read.csv("../data/webforum.csv")
 
 #Show the summary, found that there is weird data (eg. WC = 0, QM = 400)
 summary(data)

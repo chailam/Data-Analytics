@@ -23,7 +23,7 @@ packages()
 # =========================================================================
 
 # read in the file
-df1 = read.csv('webforum.csv')
+df1 = read.csv('../data/webforum.csv')
 
 # view the data to see if there are any zero values for WC
 df2 = df1[order(df1$WC),]

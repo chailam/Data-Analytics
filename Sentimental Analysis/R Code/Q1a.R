@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read the data into R
-data = read.csv("C:/Users/caila/Desktop/FIT3152 Assignment/webforum.csv")
+data = read.csv("../data/webforum.csv")
 
 #Find the number of groups
 length(unique(data$ThreadID)) # 300 ThreadID = 300 different group
