@@ -73,7 +73,7 @@ For detailed information on LIWC and its analysis techniques, refer to:
 
 ## Weather Forecasting Using Classification Models
 
-The code is in folder `Weather Forecasting`. 
+The code is in folder `Weather Forecasting Classification Model`. 
 
 
 **Introduction:**   
