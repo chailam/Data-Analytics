@@ -8,6 +8,7 @@ It consists of two assignment tasks:
 ## Complex Data Analysis using R
 Exploring the Social and Linguistic Dynamics of an Online Community
 
+The code is in folder `Sentimental Analysis`. 
 
 **Introduction:**   
 There is a theory in social science, that people adopt similar patterns of language use when they interact. This task will investigate whether this concept is present in an online forum, where participants communicate with each other via conversations online. 
@@ -36,7 +37,7 @@ the following steps:
 3. Sentiment Analysis according to Year and Time of Day.
 4. Sentiment Analysis according to Year; Time of Day; and ThreadID.
 
-![Q1 screenshot](./asset/Q1_screenshot.png)
+![Q1 screenshot](./Sentimental%20Analysis/asset/Q1_screenshot.png)
 
 
 <br>
@@ -51,8 +52,8 @@ and the other users was as follows:
 4. Comparing the groups over time
 
 
-![Q2 screenshot](./asset/Q2_screenshot.png)
-![Q2 screenshot2](./asset/Q2_screenshot2.png)
+![Q2 screenshot](./Sentimental%20Analysis/asset/Q2_screenshot.png)
+![Q2 screenshot2](./Sentimental%20Analysis/asset/Q2_screenshot2.png)
 <br>
 
 **Data:**   
