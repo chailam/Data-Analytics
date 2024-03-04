@@ -3,7 +3,7 @@ This repo is the code storage for the Data Analytics unit I completed when I was
 
 It consists of two assignment tasks:
 - [Complex Data Analysis using R](#complex-data-analysis-using-r)
-- forecasting
+- [Weather Forecasting Using Classification Models](#weather-forecasting-using-classification-models)
 
 ## Complex Data Analysis using R
 Exploring the Social and Linguistic Dynamics of an Online Community
@@ -56,7 +56,7 @@ and the other users was as follows:
 ![Q2 screenshot2](./Sentimental%20Analysis/asset/Q2_screenshot2.png)
 <br>
 
-**Data:**   
+**Data Source:**   
 The dataset, stored in `data/webforum.csv`, comprises metadata and linguistic analysis of 20,000 forum posts spanning from 2002 to 2011.
 
 The Linguistic analysis was conducted using Linguistic Inquiry and Word Count (LIWC), which calculates the proportion of key words used in communication to assess the prevalence of certain thoughts, feelings, and motivations.
@@ -65,4 +65,41 @@ For detailed information on LIWC and its analysis techniques, refer to:
 - LIWC: [http://liwc.wpengine.com/](http://liwc.wpengine.com/)
 - Language Manual: [http://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf](http://liwc.wpengine.com/wp-content/uploads/2015/11/LIWC2015_LanguageManual.pdf)
 
+<br>
 
+----
+
+<br>
+
+## Weather Forecasting Using Classification Models
+
+The code is in folder `Weather Forecasting`. 
+
+
+**Introduction:**   
+The objective is to apply the classification models to develop a weather forecasting system.    
+
+Each model will be evaluated for its predictive performance by constructing Receiver Operating Characteristic (ROC) curves. The dataset has been partitioned into a 70% training set and a 30% test set to assess the accuracy of the models.
+
+<br>
+
+**Data Source:**   
+The dataset used in this project is under `./data/WAUS2019.csv`. It is a modified version of the Kaggle competition data: "Predict Rain Tomorrow in Australia" ([Link](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)). It comprises meteorological observations as attributes, with the class attribute "Rain Tomorrow" indicating whether it will rain the next day.
+
+<br>
+
+**Model Selection:**
+   - Decision Tree
+   - Naïve Bayes
+   - Bagging
+   - Boosting
+   - Random Forest
+   - Artificial Neural Network
+
+<br>
+
+**Report:**   
+A comprehensive report was generated to analyze the classification models and the variables used in weather prediction. This report provides insights into the effectiveness of each model and the significance of different meteorological attributes in forecasting rain in Australia.
+
+
+The report named `Weather Forecasting Classification Model.pdf`.
